@@ -23,6 +23,7 @@
   "homepage": "https://github.com/swillis/ladder-app#readme",
   "devDependencies": {
     "autoprefixer-core": "^5.1.8",
+    "babelify": "^6.3.0",
     "connect": "^3.3.5",
     "fb-flo": "^0.4.0",
     "jspm": "^0.15.0-beta",
@@ -50,5 +51,9 @@
       "transpileES6": true,
       "minify": true
     }
+  },
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }
