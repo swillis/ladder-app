@@ -40,7 +40,8 @@
   "jspm": {
     "directories": {},
     "dependencies": {
-      "normalize.css": "github:necolas/normalize.css@^3.0.2"
+      "normalize.css": "github:necolas/normalize.css@^3.0.2",
+      "react": "npm:react@^0.14.0"
     },
     "devDependencies": {
       "babel": "npm:babel@^4.7.16",

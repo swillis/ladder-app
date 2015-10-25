@@ -7,9 +7,19 @@ var React = require('react');
 var ReactDOM = require('react-dom');
 
 ReactDOM.render(React.createElement(
-  'h1',
+  'div',
   null,
-  'Hello, world!'
+  React.createElement(
+    'h1',
+    null,
+    'Hello, world!'
+  ),
+  ',',
+  React.createElement(
+    'p',
+    null,
+    'Test'
+  )
 ), document.getElementById('example'));
 
 },{"react":157,"react-dom":2}],2:[function(require,module,exports){
